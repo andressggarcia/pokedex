@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@400;600&family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;500;700;900&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    background: #E5E5E5;
+}
+.div-container__pokemons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.red-dos{
+    height: 105px;
+    width: 100%;
+    background-color: #DD1A1A;
+}
+.black-dos{
+    height: 50px;
+    width: 100%;
+    background-color: #0C0C0C;
+}
+.div-imgs{
+    position: relative;
+}
+.pokedex{
+    width: 430px;
+    position: absolute;
+    top: -77px;
+    right: 312px;
+    background-color: transparent;
+}
+.circle-one{
+    position: absolute;
+    background-color: transparent;
+    top: -86px;
+    right: 223px;
+    width: 117px;
+    height: 117px; 
+}
+.circle-two{
+    position: absolute;
+    background-color: transparent;
+    width: 63px;
+    height: 63px;
+    top: -59px;
+    right: 250px;
+}
+
+.container-input__name{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-name__pokemons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 24px;
+    margin-bottom: 40px;
+    padding-top: 34px;
+}
+.p-name__one{
+    font-weight: 700;
+    color: #FE1936;
+    margin-right: 7px;
+}
+.p-name__two{
+    color: black;
+    font-weight: 400;
+}
+.container-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 68px;
+    border: none;
+    width: 100%;
+    margin-bottom: 90px;
+    margin-left: auto;
+}
+.input-pokemon{
+    color: #FE1936;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 455px;
+    padding-left: 1rem;
+    height: 68px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+.button-pokemon{
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #FE1936;
+    color: #FFFFFF;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 210px;
+    height: 68px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+select{
+    border-radius: 5px;
+    border: none;
+    width: 250.84px;
+    height: 68px;
+    margin-left: 24px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    font-size: 18px;
+    padding-left: 1rem;
+}
+
+ul{
+    width: 260px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.link-card{
+    text-decoration: none;
+}
+.div-container__card{
+    width: 290px;
+    height: 420px;
+    background-color: #FFFFFF;
+    border: 10px #E75C35 solid;
+    border-radius: 10px;
+}
+
+.img-card{
+    padding-top: 10px;
+    width: 172px;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+    background-color: #FFFFFF
+}
+.h1-card{
+    margin-top: 8px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #008F7A;
+}
+.p-type{
+    text-align: center;
+    padding-top: 13px;
+    background-color: #FFFFFF;
+    color: #9F9F9F;
+}
+.br-dos{
+    height: 1px;
+    background-color: #E5E5E5;
+    margin-top: 20px;
+}
+.div-statistics{
+    height: 126px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    text-align: center;
+    background-color: #FFFFFF;
+   
+}
+.div-statistics div{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+.p-statistics{
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FE1936;
+}
+.p-dos{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    color: #9F9F9F; 
+    margin-bottom: 8px;
+}
+.numbers{
+    font-size: 32px;
+    border: none;
+    padding: 40px;
+    color: #FE1936;
+}

@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner-detail{
+    width: 100%;
+    height: 1320px;
+}
+.div-imgs{
+    width: 100%;
+    position: relative;
+}
+.pokedex{
+    position: absolute;
+    top: -77px;
+    left: 10px;
+}
+.div-detail{
+    width: 1116px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 135px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.img-detail{
+    position: absolute;
+    width: 314px;
+    top: -98px;
+    background-color: transparent;
+}
+.id-detail{
+    margin-top: 230px;
+    font-weight: 500;
+    font-size: 40px;
+    width: 78px;
+    height: 54px;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color: #416460;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.name-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.name-detail h1{
+    font-weight: 600;
+    font-size: 45px;
+    color: #416460;
+    background-color:#ffffff;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-bottom: 22px;
+}
+.name-detail div{
+    width: 300px;
+    border: 1px solid #9F9F9F;
+}
+
+.weight-height{
+    display: flex;
+    margin-bottom: 32px;
+    background: #FFFFFF;
+}
+.p-weight{
+    text-align: center;
+    background: #FFFFFF;
+    margin-right: 30px;
+}
+.p-height{
+    background: #FFFFFF;
+    margin-left: 30px;
+    text-align: center;
+}
+.type-abilitie{
+    display: flex;
+}
+.type-detail{
+    background: #FFFFFF;
+}
+.type-detail h2{
+    width: 435px;
+    height: 43px;
+    font-size: 30px;
+    font-weight:400;
+    background: #FFFFFF;
+    text-align: center;
+}
+.type{
+    display: flex;
+    background: #FFFFFF;
+}
+.type-one{
+    width: 207px;
+    height: 47px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+.type-two{
+    width: 207px;
+    height: 47px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.abilitie-detail{
+    background: #FFFFFF;
+}
+.abilitie-detail h2{
+    width: 435px;
+    height: 43px;
+    font-size: 30px;
+    font-weight:400;
+    background: #FFFFFF;
+    text-align: center;
+}
+.abilitie{
+    display: flex;
+    background: #FFFFFF;
+}
+.abilitie-one{
+    width: 207px;
+    height: 47px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.abilitie-two{
+    width: 207px;
+    height: 47px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.stats{
+    width: 890px;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+}
+.div-title{
+    display: flex;
+    background: #FFFFFF;
+    align-items: center;
+}
+.title-stats{
+    font-size: 45px;
+    background: #FFFFFF;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #302F2F;
+}
+.br-four{
+    width: 600px;
+    height: 1px;
+    border: 1px solid #D3D3D3;
+    background: #FFFFFF;
+    margin-left: 40px;
+}
+.container-stats{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+.div-stats{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: #FFFFFF;
+}
+.div-stats h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+}
+.div-stats p{
+    font-size: 24px;
+    background-color: #FFFFFF;
+}
